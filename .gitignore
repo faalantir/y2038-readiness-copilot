@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local scan targets / cloned public repos
+repos/
+reference_repos/
+
+# Generated public-repo reports that may be noisy / local-only
+reports/esphome/
+reports/mosquitto/
+reports/munge/
+reports/rcl_interfaces/
+reports/cross_repo_summary.md
+reports/terminal_snapshot.txt
+reports/terminal_snapshot_v2.txt
+
+# Local archives / OS files
+*.zip
+.DS_Store
+
+# GitHub Actions workflow omitted from initial push
+.github/workflows/

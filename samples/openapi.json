@@ -1,0 +1,19 @@
+{
+  "components": {
+    "schemas": {
+      "DeviceEvent": {
+        "type": "object",
+        "properties": {
+          "last_seen_unix": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "expires_at": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    }
+  }
+}

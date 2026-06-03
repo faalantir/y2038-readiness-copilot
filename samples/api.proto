@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DeviceHeartbeat {
+  string device_id = 1;
+  fixed32 epoch_seconds = 2;
+  int32 certificate_expiry_timestamp = 3;
+  string status = 4;
+}

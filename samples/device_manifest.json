@@ -1,0 +1,8 @@
+{
+  "device_family": "warehouse-gateway-v2",
+  "architecture": "armv7",
+  "os": "embedded-linux",
+  "expected_lifecycle_end": "2042-12-31",
+  "ota_updates": true,
+  "notes": "Sample manifest: 32-bit architecture expected to run beyond 2038."
+}
